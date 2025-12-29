@@ -35,6 +35,7 @@
     "build:rust": "wasm-pack build -t web rust",
     "build:rust-dev": "wasm-pack build --dev -t web rust",
     "build:ZeldaWindWaker": "cd src/ZeldaWindWaker/tools && tsx --experimental-wasm-modules zww_extractor.ts",
+    "build:godot": "cd src/ZeldaWindWaker/tools && tsx --experimental-wasm-modules godot_exporter.ts",
     "build:ztp": "cd src/ZeldaTwilightPrincess/tools && tsx ztp_extractor.ts",
     "build:dk64": "cd src/DonkeyKong64/tools && tsx extractor.ts",
     "build:KatamariDamacy": "cd src/KatamariDamacy/tools && tsx extractor.ts",
